@@ -1,13 +1,28 @@
-// TODO: Include packages needed for this application
+const inquirer = require('inquirer');
 
-// TODO: Create an array of questions for user input
-const questions = [];
+//const fs = require('fs');
+//const generatePage = require('./src/page-template');
 
-// TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+//const pageHTML = generatePage(name, github);
 
+//fs.writeFile('./index.html', pageHTML, err => {
+ // if (err) throw err;
+
+ // console.log('Portfolio complete! Check out index.html to see the output!');
+//});
+
+inquirer
+  .prompt([
+    {
+      type: 'input',
+      name: 'name',
+      message: 'What is your name?'
+    }
+  ])
+  .then(answers => console.log(answers));
 // TODO: Create a function to initialize app
 function init() {}
 
 // Function call to initialize app
 init();
+
