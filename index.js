@@ -24,17 +24,17 @@ const questions = [{
 },
 {
   type: 'input',
-  name: 'name',
+  name: 'Description',
   message: 'Why did you build this project?'
 },
 {
   type: 'input',
-  name: 'name',
+  name: 'Description',
   message: 'What problem does it solve?'
 },
 {
   type: 'input',
-  name: 'name',
+  name: 'Description',
   message: 'What did you learn?'
 },
 {
@@ -50,7 +50,7 @@ const questions = [{
 {
   type: 'input',
   name: 'License',
-  message: ''
+  message: 'What license did you use?'
 },
 {
   type: 'input',
