@@ -6,7 +6,7 @@ const generateMarkdown = require('./utils/generateMarkdown');
 // TODO: Create an array of questions for user input
 const questions = [{
   type: 'input',
-  name: 'Title',
+  name: 'title',
   message: "What is the name of your project? (Required)",
   validate: nameInput => {
     if (nameInput){
@@ -19,58 +19,58 @@ const questions = [{
 },
 {
   type: 'input',
-  name: 'Description',
+  name: 'description',
   message: 'What was your motivation?'
 },
 {
   type: 'input',
-  name: 'Description',
+  name: 'description',
   message: 'Why did you build this project?'
 },
 {
   type: 'input',
-  name: 'Description',
+  name: 'description',
   message: 'What problem does it solve?'
 },
 {
   type: 'input',
-  name: 'Description',
+  name: 'description',
   message: 'What did you learn?'
 },
 {
   type: 'input',
-  name: 'Installation',
+  name: 'installation',
   message: 'What are the steps to install your project?'
 },
 {
   type: 'input',
-  name: 'Usage',
+  name: 'usage',
   message: 'Provide instructions and examples for use.'
 },
 {
   type: 'input',
-  name: 'License',
+  name: 'license',
   message: 'What license did you use?'
 },
 {
   type: 'input',
-  name: 'Contributing',
+  name: 'contributing',
   message: 'How can you contribute to this project? '
 },
 {
   type: 'confirm',
-  name: 'Test',
+  name: 'test',
   message: 'Have you tested the project prior to deploying?',
   default: false
 },
 {
   type: 'input',
-  name: 'Questions',
+  name: 'questions',
   message: 'Enter your GitHub Username'
 },
 {
   type: 'link',
-  name: 'Questions',
+  name: 'questions',
   message: 'If you have any additional questions, you can reach me @'
 }
 
