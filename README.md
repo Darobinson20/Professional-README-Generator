@@ -1,24 +1,26 @@
-# README Generator
+# Professional README
   
   ## Description
-  alot
+  Created to help users create a readme that is easy to follow and read
   
   ## Table of Contents
+  * [Description](#description)
+  * [Installation](#installation)
   
   ## Installation
-  node 
+  node, npm install
   
   ## Usage
-  follow prompts
+  Javascript,Node
   
   ## License
   n/a
   
   ## Contributing
-  report bugs
+  Darrin
   
   ## Tests
-  true
+  Yes
   
   ## Questions
   darobinson20@gmail.com

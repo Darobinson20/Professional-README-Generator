@@ -20,32 +20,18 @@ const questions = [{
 {
   type: 'input',
   name: 'description',
-  message: 'What was your motivation?'
-},
-{
-  type: 'input',
-  name: 'description',
-  message: 'Why did you build this project?'
-},
-{
-  type: 'input',
-  name: 'description',
-  message: 'What problem does it solve?'
-},
-{
-  type: 'input',
-  name: 'description',
-  message: 'What did you learn?'
+  message: 'Please provide a breif description of your project?'
 },
 {
   type: 'input',
   name: 'installation',
-  message: 'What are the steps to install your project?'
+  message: 'What was needed to install your project?'
 },
 {
-  type: 'input',
+  type: 'checkbox',
   name: 'usage',
-  message: 'Provide instructions and examples for use.'
+  message: 'What languages were used in your project?',
+  choices: ['Javascript', 'HTML','CSS','ES6', 'jQuery','Node']
 },
 {
   type: 'input',
@@ -55,13 +41,12 @@ const questions = [{
 {
   type: 'input',
   name: 'contributing',
-  message: 'How can you contribute to this project? '
+  message: 'Who contributed to this project? '
 },
 {
-  type: 'confirm',
+  type: 'input',
   name: 'test',
-  message: 'Have you tested the project prior to deploying?',
-  default: false
+  message: 'Have you tested the project prior to deploying? (y/N)'
 },
 {
   type: 'input',
